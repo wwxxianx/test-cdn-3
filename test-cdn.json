@@ -1,0 +1,296 @@
+{
+    "questions": [
+        {
+            "type": "radio",
+            "required": true,
+            "title": "Single choice",
+            "options": [
+                {
+                    "value": "AuZ2EEFcnY",
+                    "questionId": "82XTFIZJK",
+                    "needComment": false,
+                    "label": "Choice 1"
+                },
+                {
+                    "value": "vlM6c3xurH",
+                    "questionId": "82XTFIZJK",
+                    "needComment": false,
+                    "label": "Choice 2"
+                },
+                {
+                    "value": "lyjxxY6TuR",
+                    "questionId": "82XTFIZJK",
+                    "needComment": false,
+                    "label": "Choice 3"
+                },
+                {
+                    "value": "w-udBByEWf",
+                    "questionId": "82XTFIZJK",
+                    "needComment": true,
+                    "label": "Others"
+                }
+            ],
+            "layout": "singlecolumn",
+            "randomizeAnswerOrder": "no",
+            "id": "82XTFIZJK"
+        },
+        {
+            "type": "checkbox",
+            "required": true,
+            "title": "Multiple choice",
+            "options": [
+                {
+                    "value": "wNrWp4OsSM",
+                    "questionId": "iPaz1iA3j",
+                    "needComment": false,
+                    "exclusive": false,
+                    "label": "Choice 1"
+                },
+                {
+                    "value": "bhscpOZUlx",
+                    "questionId": "iPaz1iA3j",
+                    "needComment": false,
+                    "exclusive": true,
+                    "label": "Choice 2 (独占选中)"
+                },
+                {
+                    "value": "YAALj-YyOx",
+                    "questionId": "iPaz1iA3j",
+                    "needComment": false,
+                    "exclusive": false,
+                    "label": "Choice 3"
+                }
+            ],
+            "layout": "singlecolumn",
+            "randomizeAnswerOrder": "no",
+            "maxSelected": 2,
+            "id": "iPaz1iA3j"
+        },
+        {
+            "type": "textarea",
+            "required": true,
+            "title": "Input title<a target=\"_blank\" href=\"http://local.alipay.com:54322/#drawer\">http://local.alipay.com:54322</a>",
+            "id": "gJr_SY6nm"
+        },
+        {
+            "type": "input",
+            "required": true,
+            "title": "<b>Short input title</b><b>Bold input title</b><b></b>",
+            "id": "u0HxZ0Ype"
+        },
+        {
+            "type": "image",
+            "required": true,
+            "title": "Image upload",
+            "id": "5irgnKmy9"
+        },
+        {
+            "type": "audio",
+            "required": true,
+            "title": "Voice upload",
+            "id": "KxFxNwhIW"
+        },
+        {
+            "type": "rate",
+            "required": true,
+            "title": "Rate start title",
+            "scale": "5",
+            "shape": "star",
+            "labels": ["很糟糕", "很好"],
+            "id": "IIFq6-j-c"
+        },
+        {
+            "type": "rateSatisfaction",
+            "required": true,
+            "title": "Rate feeling",
+            "iconset": 2,
+            "id": "ReFpJ5W7U"
+        },
+        {
+            "type": "rate",
+            "required": true,
+            "title": "Rate heart title",
+            "scale": "5",
+            "shape": "heart",
+            "labels": ["很糟糕", "很好"],
+            "id": "qS4EiJ1ky"
+        },
+        {
+            "type": "matrixRate",
+            "required": true,
+            "title": "Matrix rating",
+            "scale": "5",
+            "shape": "star",
+            "labels": ["Terrible", "Great"],
+            "subQuestions": [
+                {
+                    "value": "ajBjO4c0j",
+                    "questionId": "rYLBSPQmD",
+                    "label": "Question 1"
+                },
+                {
+                    "value": "z4uzvjciFK",
+                    "questionId": "rYLBSPQmD",
+                    "label": "Question 2"
+                }
+            ],
+            "randomizeSubQuestions": false,
+            "id": "rYLBSPQmD"
+        },
+        {
+            "type": "matrixRadio",
+            "required": true,
+            "title": "Matrix single choice title",
+            "subQuestions": [
+                {
+                    "value": "cG42I55ym",
+                    "questionId": "4sT-P6x2N",
+                    "label": "Question 1"
+                },
+                {
+                    "value": "nwsNPIihby",
+                    "questionId": "4sT-P6x2N",
+                    "label": "Question 2"
+                }
+            ],
+            "randomizeSubQuestions": false,
+            "options": [
+                {
+                    "value": "WtGxrwtJ1h",
+                    "questionId": "4sT-P6x2N",
+                    "needComment": false,
+                    "label": "Choice 1"
+                },
+                {
+                    "value": "qaVLSev5WR",
+                    "questionId": "4sT-P6x2N",
+                    "label": "Choice 2"
+                }
+            ],
+            "randomizeOptions": false,
+            "id": "4sT-P6x2N",
+            "logic": {
+                "relationship": "and",
+                "group": [
+                    {
+                        "operator": "include",
+                        "questionId": "IIFq6-j-c",
+                        "options": [3, 4]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "matrixCheckbox",
+            "required": true,
+            "title": "Matrix multiple choice title",
+            "subQuestions": [
+                {
+                    "value": "NSMZbrte8",
+                    "questionId": "tMmPDOBZf",
+                    "label": "Question 1"
+                },
+                {
+                    "value": "bsFA7oYm1w",
+                    "questionId": "tMmPDOBZf",
+                    "label": "Question 2"
+                }
+            ],
+            "randomizeSubQuestions": false,
+            "options": [
+                {
+                    "value": "ixkXgDAg16",
+                    "questionId": "tMmPDOBZf",
+                    "needComment": false,
+                    "label": "Choice 1"
+                },
+                {
+                    "value": "70X3XYaH0p",
+                    "questionId": "tMmPDOBZf",
+                    "label": "Choice 2"
+                }
+            ],
+            "randomizeOptions": false,
+            "id": "tMmPDOBZf"
+        },
+        {
+            "type": "checkbox",
+            "required": true,
+            "title": "多选题（标签风格）",
+            "options": [
+                {
+                    "value": "bmv4y-_tjL",
+                    "questionId": "U-jd-9ku8",
+                    "needComment": false,
+                    "exclusive": false,
+                    "label": "选项1"
+                },
+                {
+                    "value": "mvEb3WUrze",
+                    "questionId": "U-jd-9ku8",
+                    "needComment": false,
+                    "exclusive": false,
+                    "label": "选项2（独占选中）"
+                },
+                {
+                    "value": "1U28uErohO",
+                    "questionId": "U-jd-9ku8",
+                    "needComment": true,
+                    "exclusive": false,
+                    "label": "Others"
+                }
+            ],
+            "layout": "tag",
+            "randomizeAnswerOrder": "no",
+            "id": "U-jd-9ku8"
+        },
+        {
+            "type": "matrixRate",
+            "required": false,
+            "title": "矩阵单选题",
+            "needNAOption": true,
+            "scale": "5",
+            "shape": "star",
+            "labels": ["Terrible", "Great"],
+            "subQuestions": [
+                {
+                    "value": "NdctTtkIE",
+                    "questionId": "kLSIkubz9",
+                    "label": "问题1"
+                },
+                {
+                    "value": "TiIiFdq6kB",
+                    "questionId": "kLSIkubz9",
+                    "label": "问题2"
+                }
+            ],
+            "randomizeSubQuestions": false,
+            "NAOptionLabel": "N/A选项",
+            "id": "kLSIkubz9"
+        },
+        {
+            "type": "rate",
+            "required": true,
+            "title": "CES Rating",
+            "scale": "7",
+            "labels": ["Terrible", "Great"],
+            "id": "D3qRP_ahP"
+        },
+        {
+            "type": "rate",
+            "required": true,
+            "title": "NPS Rating",
+            "scale": "11",
+            "id": "mACplRJB8"
+        }
+    ],
+    "title": "Title",
+    "description": "<p>Description</p>",
+    "descriptionImage": "",
+    "thankYouMessages": [
+        {
+            "autoClose": true,
+            "message": "<p>感谢语</p>"
+        }
+    ]
+}
